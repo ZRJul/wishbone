@@ -1,9 +1,20 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-Regular.eot);
+    src: url(../fonts/Poppins-Regular.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/Poppins-Regular.woff2) format('woff2'),
+    url(../fonts/Poppins-Regular.woff) format('woff'),
+    url(../fonts/Poppins-Regular.ttf) format('truetype'),
+    url(../fonts/Poppins-Regular.svg#Poppins-Regular) format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 *{
     padding: 0;
     margin: 0;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
 }
 
 header{
@@ -31,6 +42,8 @@ header nav ul li {
 }
 
 header nav ul li a {
+    font-family: 'Poppins';
+    font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
@@ -65,6 +78,8 @@ header nav ul li:last-of-type a {
 }
 
 .main_banner h3 {
+    font-family: 'Poppins';
+    font-style: normal;
     margin: 10px 0;
     font-weight: 400;
     font-size: 14px;
@@ -75,6 +90,8 @@ header nav ul li:last-of-type a {
 }
 
 .main_banner h1 {
+    font-family: 'Poppins';
+    font-style: normal;
     margin: 10px 0;
     font-weight: 400;
     font-size: 64px;
@@ -83,6 +100,8 @@ header nav ul li:last-of-type a {
 }
 
 .main_banner p {
+    font-family: 'Poppins';
+    font-style: normal;
     margin: 10px 0;
     font-weight: 400;
     font-size: 16px;
@@ -96,6 +115,8 @@ header nav ul li:last-of-type a {
 }
 
 .main_banner a {
+    font-family: 'Poppins';
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -126,6 +147,8 @@ header nav ul li:last-of-type a {
 }
 
 .our_firm h3 {
+    font-family: 'Poppins';
+    font-style: normal;
     font-weight: 400;
     font-size: 32px;
     line-height: 38px;
@@ -138,6 +161,8 @@ header nav ul li:last-of-type a {
 }
 
 .our_firm_text p {
+    font-family: 'Poppins';
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -163,6 +188,8 @@ header nav ul li:last-of-type a {
 }
 
 .our_firm_img p{
+    font-family: 'Poppins';
+    font-style: normal;
     font-weight: 400;
     font-size: 17px;
     line-height: 26px;
@@ -176,6 +203,41 @@ header nav ul li:last-of-type a {
     margin: 0;
 }
 
+.house {
+    background-image: url("../images/house.jpg");
+    min-height: 600px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.house_text, .stair_text{
+    max-width: 300px;
+    margin-right: 60px;
+}
+
+.house_text h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #403E3B;
+}
+
+.house_text p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #645C55;
+    padding-right: 15px;
+}
+
 .our_process{
     padding: 100px 0;
 }
@@ -186,6 +248,8 @@ header nav ul li:last-of-type a {
 }
 
 .our_process h3{
+    font-family: 'Poppins';
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
@@ -197,6 +261,8 @@ header nav ul li:last-of-type a {
 }
 
 .our_process h2{
+    font-family: 'Poppins';
+    font-style: normal;
     font-weight: 400;
     font-size: 39px;
     line-height: 42px;
@@ -215,10 +281,11 @@ header nav ul li:last-of-type a {
 .our_process_icon_img{
     max-width: 378px;
     padding: 0 46px 10px 46px;
-
 }
 
 .our_process h4{
+    font-family: 'Poppins';
+    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 26px;
@@ -228,8 +295,115 @@ header nav ul li:last-of-type a {
 }
 
 .our_process p{
+    font-family: 'Poppins';
+    font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
     color: #645C55;
 }
+
+.stair {
+    background-image: url("../images/stair.jpg");
+    min-height: 600px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.stair_text h3, .staircase_text h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #403E3B;
+}
+
+.stair_text p, .staircase_text p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #645C55;
+    padding-right: 15px;
+}
+
+.clients {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #403E3B
+}
+
+.sub_clients {
+    max-width: 1168px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.clients_text {
+    max-width: 460px;
+}
+
+.clients_text h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ECE7E4;
+    margin-top: 10px;
+}
+
+.clients_text h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+
+.clients_text p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #ECE7E4;
+}
+
+.icon {
+    max-width: 216px;
+    min-height: 290px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.staircase {
+    background-image: url("../images/staircase.jpg");
+    min-height: 600px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.staircase_text {
+    max-width: 300px;
+    margin-left: 60px;
+}
+
+
+
+
